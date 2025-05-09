@@ -100,13 +100,6 @@ main {
 }
 
 
-.articles {
-    flex: 1;
-    min-width: 350px;
-    background-color: #00001a;
-    padding: 30px;
-    color: white;
-}
 
 
 
