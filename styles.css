@@ -116,7 +116,17 @@ articles article h2 {
     color: #c5c6ce;
     font-size: 0.95rem;
 }
+.articles2 {
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+}
 
+.articles2 article {
+    flex: 1;
+    display: flex;
+    margin-right: 30px;
+}
 
 
 
