@@ -1,0 +1,153 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fefefe;
+    color: #000;
+    padding: 20px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  header img {
+    width: 40px;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #000;
+  }
+  
+
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  }
+  
+  .img1 {
+    flex: 2;
+    min-width: 300px;
+  }
+  
+  .articles {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+
+
+  
+  .img1 img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .bigtxt h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .text p {
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  .text a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f15e50;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+  
+
+ 
+  .articles {
+    background-color: #00001a;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .articles h2 {
+    color: #fdbb32;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .articles article + article {
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+  }
+  
+  .articles article h2 {
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  .articles article p {
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
+  
+  .articles2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 40px;
+   
+  }
+  
+  .articles2 article {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .articles2 h2 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .articles2 p {
+    font-size: 0.85rem;
+    color: #444;
+  }
+  .articles2 img {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+  }
+  
