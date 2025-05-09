@@ -108,16 +108,9 @@ main {
     color: white;
 }
 
-.articles > h2 {
-    color: #e9ab53;
-    font-size: 2rem;
-    margin-bottom: 30px;
-}
 
-.articles article {
-    padding: 30px 0;
-    border-bottom: 1px solid #5d5f79;
-}
+
+
 
 
 
